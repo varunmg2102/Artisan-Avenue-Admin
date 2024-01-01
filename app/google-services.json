@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "29929224566",
+    "project_id": "aa-admin-1aac8",
+    "storage_bucket": "aa-admin-1aac8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29929224566:android:0e0f36b30583d65763e257",
+        "android_client_info": {
+          "package_name": "com.varun.aaadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA_REZBBxNwFc3SOj9CJSton8SNx4xWY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <!-- Logo (Assuming you have an image in the drawable folder) -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/aalogo"
+        android:layout_centerInParent="true"/>
+
+    <!-- Artisans Avenue Text -->
+    <TextView
+        android:id="@+id/textArtisansAvenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artisans Avenue"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Subtext -->
+    <TextView
+        android:id="@+id/textSubtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A one-stop destination to buy the Artworks"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_below="@id/textArtisansAvenue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+</RelativeLayout>
